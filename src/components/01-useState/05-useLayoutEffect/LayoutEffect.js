@@ -6,8 +6,9 @@ import './layout.css';
 
 export const Layout = () => {
 
-    const { counter, increment } = useCounter(1);
 
+
+    const { counter, increment } = useCounter(1);
 
    const {  data } = useFetch(  `https://www.breakingbadapi.com/api/quotes/${counter}`);
    const pTag = useRef();

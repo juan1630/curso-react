@@ -8,10 +8,12 @@ import ReactDOM from 'react-dom';
 // import { HookApp } from './hooksApp';
 // import { CounterApp } from './components/01-useState/counterApp'
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
-import { Layout } from './components/01-useState/05-useLayoutEffect/LayoutEffect';
+// import { Layout } from './components/01-useState/05-useLayoutEffect/LayoutEffect';
+// import { Memorize } from './components/01-useState/06-Memos/Memorize';
+import { MemoHook } from './components/01-useState/06-Memos/MemoHook'
 
 
 
-ReactDOM.render( < Layout /> ,
+ReactDOM.render( < MemoHook/> ,
     document.getElementById('root')
 );
