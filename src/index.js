@@ -1,5 +1,6 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 // // import { RealExample } from './components/01-useState/04-useRef/RealExample';
 // // import { FocusScreen } from './components/01-useState/04-useRef/FocusScreen';
 // // import { MultiplaCustomHooks } from './components/01-useState/examples/MultiplaCustomHooks';
@@ -14,11 +15,11 @@
 // // import { CallBackHook } from './components/01-useState/06-Memos/CallBackHook';
 // import { Padre } from './components/01-useState/07-tarea-memo/Padre'
 
+import { TodoApp  } from './components/08-useReducer/TodoApp'
+
+ReactDOM.render( < TodoApp/> ,
+    document.getElementById('root')
+);
 
 
-// ReactDOM.render( < Padre/> ,
-//     document.getElementById('root')
-// );
-
-
-import './components/08-useReducer/intro-reducer';
+// import './components/08-useReducer/intro-reducer';

@@ -1,0 +1,57 @@
+
+
+body {
+    padding: 1.1rem;
+}
+
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+    color: blue;
+}
+
+
+ul{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.btn-danger {
+    margin-left: 1.3rem;
+}
+
+
+
+.todos-items{
+    margin-top: 1.2rem;
+}
+
+.agregar{
+    text-align: center;
+
+}
+
+
+.item-todo {
+    cursor: pointer;
+}
+
+
+.complete {
+    text-decoration: line-through;
+}
+
+
+.form{
+    display: block;
+    width: 100%;
+
+}
+
+.btn-block{
+    width: 100%;
+    margin-top: 1.1rem;
+}
