@@ -60,6 +60,19 @@ export const TodoApp = () => {
         dispatch( actionDelete )
     }
 
+
+    const handleToggle = (idToggle) => {
+        
+
+        const actionToggle = {
+            type:'toggle',
+            payload: idToggle
+        }
+
+
+        dispatch( actionToggle )
+    }
+
     const handleOnSubmit = (e) => {
         
 
@@ -108,7 +121,7 @@ export const TodoApp = () => {
                 {
                     todos.map( (todo, i) => (
                         
-                        <li  className="item-todo"  key={todo.id} >  { i +1 } - {todo.desc} 
+                        <li  onClick={ ()=> { handleToggle(todo.id) } } className={ `${todo.done && 'complete'} ` }  key={todo.id} >  { i +1 } - {todo.desc} 
                             <hr/>
                             <button 
                             
