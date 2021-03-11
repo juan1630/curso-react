@@ -15,9 +15,11 @@ import ReactDOM from 'react-dom';
 // // import { CallBackHook } from './components/01-useState/06-Memos/CallBackHook';
 // import { Padre } from './components/01-useState/07-tarea-memo/Padre'
 
-import { TodoApp  } from './components/08-useReducer/TodoApp'
+// import { TodoApp  } from './components/08-useReducer/TodoApp'
 
-ReactDOM.render( < TodoApp/> ,
+import { MainApp } from './components/09-useContext/MainApp'
+
+ReactDOM.render( < MainApp/> ,
     document.getElementById('root')
 );
 
