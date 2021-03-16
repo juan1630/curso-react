@@ -7,7 +7,7 @@ export const AboutScreen = () => {
 
   const handleClick = () => {
       // el context hace el redibujo de los componentes
-    setUser({})
+    setUser({});
   }
 
     return (
