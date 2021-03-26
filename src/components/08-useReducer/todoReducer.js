@@ -11,6 +11,7 @@ export  const todoReducer = ( state = [] , action ) => {
             
             return [...state, action.payload];
         case 'delete':
+            
             return state.filter(  todo => todo.id !== action.payload );  //id = 6684683124
 
         case 'toggle':
