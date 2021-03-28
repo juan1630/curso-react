@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente TodoListItem Debe de mostrarse correctamente 1`] = `
+<div>
+  <li
+    className="false "
+    key="1"
+    onClick={[Function]}
+  >
+    <p>
+      2
+       - 
+      Aprender react
+    </p>
+    <hr />
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Borrar
+    </button>
+  </li>
+</div>
+`;
