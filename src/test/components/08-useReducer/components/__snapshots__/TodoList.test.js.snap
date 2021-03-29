@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el todoList Debe de mostrar correctamente el componente 1`] = `
+<ul
+  className="todos-items"
+>
+  <TodoListIem
+    handleDelete={true}
+    handleToggle={true}
+    i={0}
+    key="1"
+    todo={
+      Object {
+        "desc": "Aprender react",
+        "done": false,
+        "id": 1,
+      }
+    }
+  />
+  <TodoListIem
+    handleDelete={true}
+    handleToggle={true}
+    i={1}
+    key="2"
+    todo={
+      Object {
+        "desc": "Aprender mongo",
+        "done": false,
+        "id": 2,
+      }
+    }
+  />
+</ul>
+`;
