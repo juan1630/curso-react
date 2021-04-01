@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente TODOADD Debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <h3
+    className="agregar"
+  >
+    Agregar todo
+  </h3>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="description"
+      onChange={[Function]}
+      placeholder="Comer..."
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-success btn-block"
+    >
+       Agregar 
+    </button>
+  </form>
+</Fragment>
+`;
