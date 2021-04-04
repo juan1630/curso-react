@@ -31,7 +31,7 @@ describe('pruebas en todoApp', () => {
         } );
 
 
-        expect( wrapper.find('h1').text().trim() ).toBe('Todo App (  2 )')
+        expect( wrapper.find('h1').text().trim() ).toBe('Todo App (      2 )')
         expect( localStorage.setItem ).toHaveBeenCalledTimes(2);
 
     })
